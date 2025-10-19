@@ -8,7 +8,7 @@
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
                         </button>
-                        <h3 class="ms-5 mb-0">Together, we can build a world where everyone has the chance to thrive.</h3>
+                        <h3 class="ms-5 mb-0">Building Capacity for Growth, Impact and Sustainability.</h3>
                     </div>
                 </div>
                 <div class="d-none d-lg-block col-lg-1">
@@ -25,14 +25,14 @@
         <div class="modal-dialog">
             <div class="modal-content rounded-0">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Director Rhoda Kibirithu</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <!-- 16:9 aspect ratio -->
                     <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
+                        <video class="embed-responsive-item" src="{{asset('videos/home.mp4')}}" id="video" allowfullscreen 
+                            allow="autoplay" controls mimestype="video/mp4"></video>
                     </div>
                 </div>
             </div>

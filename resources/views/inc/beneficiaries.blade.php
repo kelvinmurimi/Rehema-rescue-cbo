@@ -4,7 +4,7 @@
          <div class="row g-5">
              <div class="col-md-12 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
                  <div class="testimonial-title">
-                     <h1 class="display-6 mb-4">Our Beneficiaries’ Voices.</h1>
+                     <h3 class="display-7 mb-4">Our Beneficiaries’ Voices.</h3>
                      <p class="fs-5 mb-0">We work to bring smiles, hope, and a brighter future to those in need.</p>
                  </div>
              </div>
@@ -14,7 +14,7 @@
                          <div class="row g-5 align-items-center">
                              <div class="col-md-6">
                                  <div class="testimonial-img">
-                                     <img class="img-fluid" src="{{ asset('frontend/img/testimonial-1.jpg') }}"
+                                     <img class="img-fluid" src="{{ asset('slider/Antony.png') }}"
                                          alt="">
                                  </div>
                              </div>
@@ -48,7 +48,7 @@
                          <div class="row g-5 align-items-center">
                              <div class="col-md-6">
                                  <div class="testimonial-img">
-                                     <img class="img-fluid" src="{{ asset('frontend/img/testimonial-2.jpg') }}   "
+                                     <img class="img-fluid" src="{{ asset('frontend/img/logo.jpg') }}"
                                          alt="">
                                  </div>
                              </div>
@@ -84,7 +84,7 @@
                          <div class="row g-5 align-items-center">
                              <div class="col-md-6">
                                  <div class="testimonial-img">
-                                     <img class="img-fluid" src="{{ asset('frontend/img/testimonial-3.jpg') }}"
+                                     <img class="img-fluid" src="{{ asset('slider/Marian.png') }}"
                                          alt="">
                                  </div>
                              </div>
