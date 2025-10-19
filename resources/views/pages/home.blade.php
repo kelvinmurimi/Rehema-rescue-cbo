@@ -1,1 +1,17 @@
-<h1>home</h1>
+@extends('layouts.base')
+
+
+@section('content')
+     @include('inc.slider')
+    @include('inc.aboutHome')
+    
+     @include('inc.counter')
+     @include('inc.video')
+    @include('inc.beneficiaries')
+    @include('inc.banner')
+    @include('inc.newsletter')
+@endsection
+
+
+   
+
