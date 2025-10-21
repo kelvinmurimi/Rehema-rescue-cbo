@@ -6,7 +6,7 @@
                   <!-- Carousel Image -->
                   <div class="col-lg-6">
                       <div class="carousel-img">
-                          <img class="w-100" src="{{ asset('frontend/img/carousel-1.jpg') }}" alt="Image">
+                          <img class="w-100" src="{{ asset('slider/g1.jpg') }}" alt="Image">
                       </div>
                   </div>
                   <!-- end Carousel Image -->
@@ -33,7 +33,7 @@
                   <!-- Carousel Image -->
                   <div class="col-lg-6">
                       <div class="carousel-img">
-                          <img class="w-100" src="{{ asset('frontend/img/carousel-2.jpg') }}" alt="Image">
+                          <img class="w-100" src="{{ asset('slider/g4.jpg') }}" alt="Image">
                       </div>
                   </div>
                   <!-- end Carousel Image -->

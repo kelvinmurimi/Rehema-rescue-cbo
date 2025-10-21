@@ -135,37 +135,37 @@ $config = [
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav me-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="/" class="nav-item nav-link active">Home</a>
                         {{-- About Tabs --}}
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                             <div class="dropdown-menu bg-light m-0">
-                                <a href="event.html" class="dropdown-item">Our History</a>
-                                <a href="feature.html" class="dropdown-item">Our Beneficiries</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Our Partners</a>
-                                <a href="404.html" class="dropdown-item">Get Involved</a>
+                                <a href="{{ route('about') }}" class="dropdown-item">Our History</a>
+                                <a href="{{ route('beneficiaries') }}" class="dropdown-item">Our Beneficiries</a>
+                                <a href="{{ route('about') }}" class="dropdown-item">Our Team</a>
+                                <a href="{{ route('partners') }}" class="dropdown-item">Our Partners</a>
+                                <a href="{{ route('volunteer') }}" class="dropdown-item">Get Involved</a>
                             </div>
                         </div>
                         {{-- End About Tabs --}}
-                         <a href="contact.html" class="nav-item nav-link">Our Programs</a>
+                         <a href="{{ route('programs') }}" class="nav-item nav-link">Our Programs</a>
                         {{-- Resources --}}
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
                             <div class="dropdown-menu bg-light m-0">
                                 <a href="event.html" class="dropdown-item">Stories</a>
-                                <a href="feature.html" class="dropdown-item">Events</a>
+                                <a href="{{ route('events') }}" class="dropdown-item">Events</a>
                                 <a href="team.html" class="dropdown-item">Transparency & Management</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonials</a>
+                                <a href="{{ route('beneficiaries') }}" class="dropdown-item">Testimonials</a>
                                 <a href="404.html" class="dropdown-item">News/Blog</a>
-                                <a href="404.html" class="dropdown-item">Privacy Policy.</a>
+                                <a href="{{ route('privacy') }}" class="dropdown-item">Privacy Policy.</a>
                             </div>
                         </div>
                         {{-- End Resources --}}
-                       
-                        <a href="contact.html" class="nav-item nav-link">Get Involved</a>
-                        <a href="contact.html" class="nav-item nav-link">FAQs</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+
+                        <a href="{{ route('volunteer') }}" class="nav-item nav-link">Get Involved</a>
+                        <a href="{{ route('faqs') }}" class="nav-item nav-link">FAQs</a>
+                        <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
                     </div>
                     <div class="d-none d-lg-flex ms-auto">
                         <a class="btn btn-square btn-dark ms-2" href=""><i class="fab fa-twitter"></i></a>
@@ -221,22 +221,22 @@ $config = [
                     <h4 class="text-light mb-4">Gallery</h4>
                     <div class="row g-2">
                         <div class="col-4">
-                            <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
+                            <img class="img-fluid w-100" src="{{asset('inc/Christmas.jpg')}}" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
+                            <img class="img-fluid w-100" src="{{asset('inc/goverment.jpg')}}" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
+                            <img class="img-fluid w-100" src="{{asset('inc/graduation.png')}}    " alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
+                            <img class="img-fluid w-100" src="{{asset('inc/Graduationmen.png')}}" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="">
+                            <img class="img-fluid w-100" src="{{asset('inc/need1.jpg')}}" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
+                            <img class="img-fluid w-100" src="{{asset('slider/g1.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>

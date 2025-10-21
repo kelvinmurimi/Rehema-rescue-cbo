@@ -4,7 +4,7 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
                 <div class="about-img">
-                    <img class="img-fluid w-100" src="{{ asset('frontend/img/about.jpg') }}" alt="Image">
+                    <img class="img-fluid w-100" src="{{ asset('banner/children.jpg') }}" alt="Image">
                 </div>
             </div>
             <div class="col-lg-6">
