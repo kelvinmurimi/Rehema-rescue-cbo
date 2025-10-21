@@ -25,5 +25,7 @@ Route::group(['r'], function () {
      Route::get('privacy-policy-rehema-rescue-cbo', [HomeController::class, 'privacy'])->name('privacy');
      //partner
      Route::get('partner-rehema-rescue-cbo', [HomeController::class, 'partner'])->name('partner');
+     //transparency
+     Route::get('transparency-rehema-rescue-cbo', [HomeController::class, 'transparency'])->name('transparency');
      
 }); 
