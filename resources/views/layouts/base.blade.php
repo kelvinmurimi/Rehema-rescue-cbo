@@ -141,13 +141,24 @@ $config = [
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                             <div class="dropdown-menu bg-light m-0">
                                 <a href="{{ route('about') }}" class="dropdown-item">Our History</a>
+                                 <a href="{{ route('about') }}" class="dropdown-item">Our Team</a>
                                 <a href="{{ route('beneficiaries') }}" class="dropdown-item">Our Beneficiries</a>
-                                <a href="{{ route('about') }}" class="dropdown-item">Our Team</a>
-                                <a href="{{ route('partners') }}" class="dropdown-item">Our Partners</a>
-                                <a href="{{ route('volunteer') }}" class="dropdown-item">Get Involved</a>
+                                 <a href="{{ route('transparency') }}" class="dropdown-item">Transparency & Management</a>
+                               
                             </div>
                         </div>
                         {{-- End About Tabs --}}
+                        {{-- get involved --}}
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Get Involved</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="{{ route('volunteer') }}" class="dropdown-item">Volunteer</a>
+                                 <a href="{{ route('partner') }}" class="dropdown-item">Partner With Us</a>
+                                <a href="{{ route('donation') }}" class="dropdown-item">Donate</a>
+                                 <a href="{{ route('partners') }}" class="dropdown-item">Our Partners</a>
+                            </div>
+                        </div>
+                        {{-- end get involved --}}
                          <a href="{{ route('programs') }}" class="nav-item nav-link">Our Programs</a>
                         {{-- Resources --}}
                         <div class="nav-item dropdown">
@@ -155,7 +166,7 @@ $config = [
                             <div class="dropdown-menu bg-light m-0">
                                 <a href="event.html" class="dropdown-item">Stories</a>
                                 <a href="{{ route('events') }}" class="dropdown-item">Events</a>
-                                <a href="team.html" class="dropdown-item">Transparency & Management</a>
+                               
                                 <a href="{{ route('beneficiaries') }}" class="dropdown-item">Testimonials</a>
                                 <a href="404.html" class="dropdown-item">News/Blog</a>
                                 <a href="{{ route('privacy') }}" class="dropdown-item">Privacy Policy.</a>
@@ -163,7 +174,7 @@ $config = [
                         </div>
                         {{-- End Resources --}}
 
-                        <a href="{{ route('volunteer') }}" class="nav-item nav-link">Get Involved</a>
+                       
                         <a href="{{ route('faqs') }}" class="nav-item nav-link">FAQs</a>
                         <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
                     </div>

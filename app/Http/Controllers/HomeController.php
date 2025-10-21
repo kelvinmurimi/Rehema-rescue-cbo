@@ -75,5 +75,10 @@ class HomeController extends Controller
         $title = "RehemarescueCBO - Beneficiaries";
         return view('pages.beneficiaries', compact('title'));
     }
+    //transparency
+    public function transparency(){
+        $title = "RehemarescueCBO - Transparency & Management";
+        return view('pages.transparency', compact('title'));
+    }
 
 }
