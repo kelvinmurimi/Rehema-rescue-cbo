@@ -56,13 +56,24 @@ class HomeController extends Controller
         $title = "RehemarescueCBO - Privacy Policy";
         return view('pages.privacy', compact('title'));
     }
+    //partner
 
+    public function partners()
+    {
+        $title = "RehemarescueCBO - Our Partners";
+        return view('pages.partners', compact('title'));
+    }
+    //partner
+    public function partner()
+    {
+        $title = "RehemarescueCBO - Partner With Us";
+        return view('pages.partner', compact('title'));
+    }
+    //beneficiaries
+    public function beneficiaries()
+    {
+        $title = "RehemarescueCBO - Beneficiaries";
+        return view('pages.beneficiaries', compact('title'));
+    }
 
-
-
-
-
-
-
-    
 }

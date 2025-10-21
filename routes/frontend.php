@@ -23,5 +23,7 @@ Route::group(['r'], function () {
      Route::get('programs-rehema-rescue-cbo', [HomeController::class, 'programs'])->name('programs');
      //privacy
      Route::get('privacy-policy-rehema-rescue-cbo', [HomeController::class, 'privacy'])->name('privacy');
+     //partner
+     Route::get('partner-rehema-rescue-cbo', [HomeController::class, 'partner'])->name('partner');
      
 }); 
