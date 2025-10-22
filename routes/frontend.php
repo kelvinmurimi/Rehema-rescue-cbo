@@ -6,7 +6,7 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // Additional frontend routes can be added here grouped
-Route::group(['r'], function () {
+Route::prefix('r')->group( function () {
     // Example route
      Route::get('/about-rehema-rescue-cbo', [HomeController::class, 'about'])->name('about');
      Route::get('/contact-rehema-rescue-cbo', [HomeController::class, 'contact'])->name('contact');
