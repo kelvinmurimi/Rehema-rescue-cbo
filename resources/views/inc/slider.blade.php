@@ -9,15 +9,15 @@
       </video>
       <div class="video-overlay">
           <div class="container text-center text-white py-5">
-              <h1 class="display-7 text-uppercase mb-3 wow fadeIn" data-wow-delay="0.3s">Our Vision</h1>
+              <h4 class="display-7 text-uppercase mb-3 wow fadeIn text-primary" data-wow-delay="0.3s">Our Vision</h4>
               <p class="fs-4 mb-4 wow fadeIn" data-wow-delay="0.5s">Inspire and Provide Lasting Solutions.</p>
-              <h1 class="display-7text-uppercase mb-3 wow fadeIn" data-wow-delay="0.7s">Our Mission</h1>
+              <h4 class="display-7 text-uppercase mb-3 wow fadeIn text-primary" data-wow-delay="0.7s">Our Mission</h4>
               <p class="fs-4 mb-4 wow fadeIn" data-wow-delay="0.9s">Intervening for Transformative Behavior Change.</p>
-              <h1 class="display-7 text-uppercase mb-3 wow fadeIn" data-wow-delay="1.1s">Our Core Values</h1>
+              <h4 class="display-7 text-uppercase mb-3 wow fadeIn text-primary" data-wow-delay="1.1s">Our Core Values</h4>
               <p class="fs-4 mb-5 wow fadeIn" data-wow-delay="1.3s">Respect, Empowerment, Hope, Equity, Mentorship and Advocacy for the vulnerable in communities, which primarily translates to “REHEMA RESCUE”.</p>
               <div class="d-flex justify-content-center wow fadeIn" data-wow-delay="1.5s">
                   <a class="btn btn-primary py-3 px-4 me-3 flex-nowrap" href="{{ route('about') }}">About Us</a>
-                  <a class="btn btn-secondary py-3 px-4 flex-nowrap" href="{{ route('donation') }}">Donate Now</a>
+                  <a class="btn btn-secondary py-3 px-4 flex-nowrap text-white" style="color: #fff !important" href="{{ route('donation') }}">Donate Now</a>
               </div>
           </div>
       </div>

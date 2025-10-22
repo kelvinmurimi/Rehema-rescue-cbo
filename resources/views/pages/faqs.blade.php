@@ -1,7 +1,7 @@
 @extends('layouts.base')
 @section('content')
     @include('layouts.pageheader')
-  
+
     <!-- FAQs Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -12,45 +12,247 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="accordion" id="accordionExample">
+                        {{-- 1 --}}
                         <div class="accordion-item wow fadeInUp" data-wow-delay="0.1s">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How can I donate to Rehema Rescue CBO?
+                                    What is Rehema Rescue CBO?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    You can donate through various methods including bank transfers, mobile money, or online payment platforms. Please visit our "Donate" page for more details on how you can contribute and make a difference.
+                                    Rehema Rescue Community-Based Organization (CBO) is a registered charitable
+                                    initiative in Thika, Kiambu County, Kenya. Dedicated to empowering and transforming
+                                    lives of vulnerable children, youth, and families through education, advocacy, health,
+                                    mentorship, and holistic integrated care.
                                 </div>
                             </div>
                         </div>
+                        {{-- 2 --}}
                         <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    What kind of volunteer opportunities are available?
+                                    Are you officially registered, recognized by government and relevant bodies?.
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    We have a wide range of volunteer opportunities, from helping with daily activities at our center, mentoring children, to assisting with administrative tasks. Check out our "Volunteer" page to find an opportunity that matches your skills and interests.
+                                    Yes. Rehema Rescue CBO is fully registered by the Directorate of Social Development, in
+                                    accordance with the provision of Community Groups Registration Act, NO.30 of 2022,
+                                    under Registration NO. DSD/22/114/02/96102, and in accordance with the Public Benefit
+                                    Organizations (PBO) Act of 2013, and the Constitution of Kenya, 2010. We collaborate
+                                    with the Department of Children Services, local health facilities, schools, faith-based
+                                    organizations, and corporate sponsors to ensure comprehensive community support and
+                                    service delivery.
                                 </div>
                             </div>
                         </div>
+                        {{-- 3 --}}
                         <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    How does Rehema Rescue CBO use the donations it receives?
+                                    Who qualifies for support under your programs/ who do you serve?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    All donations go directly towards supporting our programs, which include providing food, shelter, education, and healthcare to vulnerable children and communities. We are committed to transparency and accountability in all our financial dealings.
+                                    Our beneficiaries include: orphans, disadvantaged children, children with disabilities,
+                                    teen parents, survivors of gender-based violence, youths battling addiction or trauma
+                                    and
+                                    families in extreme poverty.
+                                    We identify and enroll beneficiaries through referrals from local authorities, schools,
+                                    hospitals, and community outreach.
+                                </div>
+                            </div>
+                        </div>
+                        {{-- 4 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Who qualifies for support under your programs/ who do you serve?.
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Our beneficiaries include: orphans, disadvantaged children, children with disabilities,
+                                    teen parents, survivors of gender-based violence, youths battling addiction or trauma
+                                    and
+                                    families in extreme poverty.
+                                    We identify and enroll beneficiaries through referrals from local authorities, schools,
+                                    hospitals, and community outreach.
+                                </div>
+                            </div>
+                        </div>
+                        {{-- 5 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    What kind of services and programs do you offer?.
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We implement programs in:
+                                     Child Protection & Advocacy.
+                                     Education and Scholarship Support
+                                     Health & Nutrition.
+                                     Mentorship and Technical Skills Development
+                                     Mental Health and Drug Recovery.
+                                     Legal and Community Advocacy
+                                    Each program is designed to empower individuals and promote sustainable community
+                                    growth.
+                                </div>
+                            </div>
+                        </div>
+                        {{-- 6 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    How can I get involved or support Rehema Rescue CBO's work?.
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    There are several ways to support our work:
+                                     Donations: Financial contributions, supplies, or services.
+                                     Volunteering: Offering your time and skills for various programs.
+                                     Partnerships: Collaborating with us on projects or events.
+                                     Advocacy: Raising awareness about our mission and programs.
+                                    Visit our website's "Get Involved
+                                    " section for more details on how to contribute.
+                                </div>
+                            </div>
+                        </div>
+                        {{-- 7 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    How are you funded?.
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Our work is supported through donations, partnerships, community contributions, and
+                                    collaborations with local and international well-wishers. All funds are used
+                                    transparently
+                                    and audited annually in line with the PBO Act’s accountability requirements.
+                                </div>
+                            </div>
+                        </div>
+                        {{-- 8 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    Are donations to Rehema Rescue CBO used transparently?.
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes. Every donation is meticulously tracked, recorded, and reported according to our
+                                    internal financial policy and the Public Benefit Organizations Act, 2013. Annual reports
+                                    and audited financial statements are shared with our stakeholders and the regulatory
+                                    authority.
+                                </div>
+                            </div>
+                        </div>
+                        {{-- 9 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.9s">
+                            <h2 class="accordion-header" id="headingNine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                    How do I donate or support your work?.
+                                </button>
+                            </h2>
+                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    You can support us financially, through in-kind contributions or by partnering in our
+                                    community initiatives.
+                                    Please click "Donate" on our website or reach out through our donations and help desk
+                                    <a href="{{ route('contact') }}">Contact Us</a> for more details.
+                                    All donations are strictly used for program delivery and beneficiary support, in line
+                                    with
+                                    our financial policies and the PBO Act’s accountability standards.
+                                </div>
+                            </div>
+                        </div>
+                        {{-- 10 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
+                            <h2 class="accordion-header" id="headingTen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                    How are your board and staff structured?.
+                                </button>
+                            </h2>
+                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Rehema Rescue operates under a defined governance framework:
+                                    <li>Executive Board– Oversees strategy and policy.</li>
+                                    <li>Supervisory Board– Monitors implementation and accountability.</li>
+                                    <li>Director / CEO– Connects management with operations.</li>
+                                    <li>Project Teams – Run daily programs and community work.</li>
+                                    This ensures clear accountability, leadership, and alignment with our mission.
+                                </div>
+                            </div>
+                        </div>
+                        {{-- 11 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
+                            <h2 class="accordion-header" id="headingEleven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEleven" aria-expanded="false"
+                                    aria-controls="collapseEleven">
+                                    How do you select beneficiaries and communities you work in?.
+                                </button>
+                            </h2>
+                            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Beneficiaries are identified through community outreach, referrals from schools, local
+                                    authorities, hospitals, and partner organizations. Selection is based on high
+                                    vulnerability
+                                    levels - those facing extreme poverty, high dropout rates, neglect, substance abuse and
+                                    willingness to participate in empowerment programs.
+                                    'Needs Assessments' and 'Community Consultations' are conducted before launching any
+                                    program.
+                                </div>
+                            </div>
+                        </div>
+                        {{-- 12 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
+                            <h2 class="accordion-header" id="headingTwelve">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwelve" aria-expanded="false"
+                                    aria-controls="collapseTwelve">
+                                    What laws and policies guide your work?.
+                                </button>
+                            </h2>
+                            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Our operations are guided by:
+                                    <li>Public Benefit Organizations Act, 2013</li>
+                                    <li>Constitution of Kenya, 2010 (Articles 10 & 232)</li>
+                                    <li>Children’s Act, 2022</li>
+                                    <li>Data Protection Act, 2019</li>
+                                    <li>Labor and Employment Laws</li>
+                                    These laws ensure our work remains ethical,
                                 </div>
                             </div>
                         </div>
@@ -59,5 +261,6 @@
             </div>
         </div>
     </div>
+
     <!-- FAQs End -->
 @endsection
