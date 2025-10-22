@@ -1,60 +1,78 @@
-  <!-- Carousel Start -->
-  <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
-      <div class="owl-carousel header-carousel py-5">
-          <div class="container py-5">
-              <div class="row g-5 align-items-center">
-                  <!-- Carousel Image -->
-                  <div class="col-lg-6">
-                      <div class="carousel-img">
-                          <img class="w-100" src="{{ asset('slider/g1.jpg') }}" alt="Image">
-                      </div>
-                  </div>
-                  <!-- end Carousel Image -->
-                  <!-- Carousel Text -->
-                  <div class="col-lg-6">
-                      <div class="carousel-text">
-                          <h4 class="display-6 text-uppercase mb-3">Building Capacity for Growth, Impact and
-                              Sustainability.</h4>
-                          <p class="fs-5 mb-5">Our principles are pillared on Respect, Empowerment, Hope, Equity,
-                              Mentorship and Advocacy
-                              for the vulnerable in communities, which primarily translates to “REHEMA RESCUE”.</p>
-                          <div class="d-flex">
-                              <a class="btn btn-primary py-3 px-4 me-3" href="">About Us</a>
-
-                          </div>
-                      </div>
-                  </div>
-                  <!-- end Carousel Text -->
-
+  {{-- background video --}}
+  
+  
+  <!-- Video Hero Section Start -->
+  <div class="container-fluid p-0 video-hero-section wow fadeIn" data-wow-delay="0.1s">
+      <video autoplay loop muted playsinline class="background-video">
+          <source src="{{ asset('videos/home.mp4') }}" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay">
+          <div class="container text-center text-white py-5">
+              <h1 class="display-7 text-uppercase mb-3 wow fadeIn" data-wow-delay="0.3s">Our Vision</h1>
+              <p class="fs-4 mb-4 wow fadeIn" data-wow-delay="0.5s">Inspire and Provide Lasting Solutions.</p>
+              <h1 class="display-7text-uppercase mb-3 wow fadeIn" data-wow-delay="0.7s">Our Mission</h1>
+              <p class="fs-4 mb-4 wow fadeIn" data-wow-delay="0.9s">Intervening for Transformative Behavior Change.</p>
+              <h1 class="display-7 text-uppercase mb-3 wow fadeIn" data-wow-delay="1.1s">Our Core Values</h1>
+              <p class="fs-4 mb-5 wow fadeIn" data-wow-delay="1.3s">Respect, Empowerment, Hope, Equity, Mentorship and Advocacy for the vulnerable in communities, which primarily translates to “REHEMA RESCUE”.</p>
+              <div class="d-flex justify-content-center wow fadeIn" data-wow-delay="1.5s">
+                  <a class="btn btn-primary py-3 px-4 me-3 flex-nowrap" href="{{ route('about') }}">About Us</a>
+                  <a class="btn btn-secondary py-3 px-4 flex-nowrap" href="{{ route('donation') }}">Donate Now</a>
               </div>
           </div>
-          <div class="container py-5">
-              <div class="row g-5 align-items-center">
-                  <!-- Carousel Image -->
-                  <div class="col-lg-6">
-                      <div class="carousel-img">
-                          <img class="w-100" src="{{ asset('slider/g4.jpg') }}" alt="Image">
-                      </div>
-                  </div>
-                  <!-- end Carousel Image -->
-                  <!-- Carousel Text-->
-                  <div class="col-lg-6">
-                      <div class="carousel-text">
-                          <h6 class="display-6 text-uppercase mb-3">Intervening for Transformative Behavior Change.</h6>
-                          <p class="fs-5 mb-5">
-                              Our system on care reforms highlight our strong advocacy to children and the
-                              socially-vulnerable.
-                              Family Care: Enhancing family stability through strengthening the family institution ...
-                          <div class="d-flex mt-4">
-                              <a class="btn btn-primary py-3 px-4 me-3" href="">Learn More</a>
+      </div>
+  </div>
+  <!-- Video Hero Section End -->
 
                           </div>
                       </div>
                   </div>
                   <!-- end Carousel Text-->
+  <style>
+      .video-hero-section {
+          position: relative;
+          width: 100%;
+          height: 100vh; /* Full viewport height */
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #000; /* Fallback background color */
+      }
 
-              </div>
-          </div>
-      </div>
-  </div>
-  <!-- Carousel End -->
+      .background-video {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          min-width: 100%;
+          min-height: 100%;
+          width: auto;
+          height: auto;
+          z-index: 0;
+          -ms-transform: translateX(-50%) translateY(-50%);
+          -moz-transform: translateX(-50%) translateY(-50%);
+          -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+          background-size: cover;
+          filter: brightness(50%); /* Darken the video to make text more readable */
+      }
+
+      .video-overlay {
+          position: relative;
+          z-index: 1;
+          text-align: center;
+          padding: 20px;
+          max-width: 900px; /* Limit width for better readability */
+      }
+
+      .video-overlay h1, .video-overlay p {
+          color: #fff; /* Ensure text is white for contrast */
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+      }
+
+      .video-overlay .btn-secondary {
+          background-color: #001ac3 !important;
+          border-color: #001ac3 !important;
+          color: #212529 !important; /* Dark text for secondary button */
+      }
+  </style>
