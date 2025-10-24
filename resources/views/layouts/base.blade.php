@@ -8,6 +8,7 @@ $config = [
     'ContactPhone2' => '+254 700 000 001',
     'Address' => 'Mburu Plaza,Kwame Nkuruma Road. P.O BOX 7927-01000,Kiambu,Thika,Kenya',
     'Address2' => 'Mburu Plaza, Thika, Kenya',
+    'Website' => 'www.rehemarescue.org',
 ];
 
 ?>

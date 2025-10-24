@@ -1,4 +1,16 @@
 @extends('layouts.base')
+@php
+    $config = [
+        'app_name' => 'Rehema Rescue CBO',
+        'ContactEmail' => 'info@rehemarescue.org  ',
+        'Gmail' => 'rehemarescue@gmail.com',
+        'ContactPhone1' => '+254 700 000 000',
+        'ContactPhone2' => '+254 700 000 001',
+        'Address' => 'Mburu Plaza,Kwame Nkuruma Road. P.O BOX 7927-01000,Kiambu,Thika,Kenya',
+        'Address2' => 'Mburu Plaza, Thika, Kenya',
+        'Website' => 'www.rehemarescue.org',
+    ];
+@endphp
 @section('content')
     @include('layouts.pageheader')
 
@@ -256,11 +268,113 @@
                                 </div>
                             </div>
                         </div>
+                        {{-- 13 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
+                            <h2 class="accordion-header" id="headingThirteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThirteen" aria-expanded="false"
+                                    aria-controls="collapseThirteen">
+                                    Do you work with other organizations?
+                                </button>
+                            </h2>
+                            <div id="collapseThirteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes. We collaborate with local authorities, ministries, NGOs, faith-based institutions,
+                                    schools, and healthcare providers to ensure holistic and sustainable support for our
+                                    beneficiaries. .
+                                </div>
+                            </div>
+                        </div>
+                        {{-- 14 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
+                            <h2 class="accordion-header" id="headingFourteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFourteen" aria-expanded="false"
+                                    aria-controls="collapseFourteen">
+                                    How can a community group or other organizations partner with you?
+                                </button>
+                            </h2>
+                            <div id="collapseFourteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We value and welcome partnerships that align with our mission. Whether you represent a
+                                    school, business, NGO, or government agency, feel free to reach out via our partnership
+                                    desk ('Contact us') or visit our office in Thika to explore avenues on collaboration.
+                                </div>
+                            </div>
+                        </div>
+                        {{--  15 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
+                            <h2 class="accordion-header" id="headingFifteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFifteen" aria-expanded="false"
+                                    aria-controls="collapseFifteen">
+                                    How do you handle sensitive issues like child protection and privacy?
+                                </button>
+                            </h2>
+                            <div id="collapseFifteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We have strict Child Protection and Data Privacy policies that ensure every
+                                    beneficiary’s
+                                    dignity and safety are protected. Our team and volunteers are trained to handle cases
+                                    ethically and confidentially, following national child protection
+                                    guidelines.{{--  --}}
+                                </div>
+                            </div>
+                        </div>
+                        {{--  16 --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
+                            <h2 class="accordion-header" id="headingSixteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSixteen" aria-expanded="false"
+                                    aria-controls="collapseSixteen">
+                                    Can I find your annual reports or results? How?.
+                                </button>
+                            </h2>
+                            <div id="collapseSixteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes you can. Our annual reports, financial statements, and project summaries are
+                                    available to partners and stakeholders upon request via Our Contacts. They highlight our
+                                    impact, reach, and responsible use of donor funds.{{--  --}}
+                                </div>
+                            </div>
+                        </div>
+                        {{-- 17 contact --}}
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
+                            <h2 class="accordion-header" id="headingSeventeen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeventeen" aria-expanded="false"
+                                    aria-controls="collapseSeventeen">
+                                    How can I contact Rehema Rescue CBO?.
+                                </button>
+                            </h2>
+                            <div id="collapseSeventeen" class="accordion-collapse collapse"
+                                aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    You can reach us via:
+                                    <div class="color-blue">
+                                        <li class="text-secondary">{{ $config['ContactPhone1'] }}</li>
+                                        <li class="text-secondary">{{ $config['ContactEmail'] }}</li>
+                                        <li class="text-secondary">{{ $config['Gmail'] }}</li>
+                                        <li class="text-secondary">{{ $config['Website'] }}</li>
+                                        <li class="text-secondary">{{ $config['Address'] }}</li>
+                                        <li class="text-secondary">Our office at Thika, Kiambu County, Kenya.</li>
+                                    </div>
+                                    Our team is ready to assist with any inquiries or support needs.
+
+
+                                </div>
+                            </div>
+                        </div>
+                        {{-- End --}}
+
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- FAQs End -->
-@endsection
+        <!-- FAQs End -->
+    @endsection
