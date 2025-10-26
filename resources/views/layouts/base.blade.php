@@ -4,7 +4,7 @@ $config = [
     'app_name' => 'Rehema Rescue CBO',
     'ContactEmail' => 'info@rehemarescue.org  ',
     'Gmail' => 'rehemarescue@gmail.com',
-    'ContactPhone1' => '+254 700 000 000',
+    'ContactPhone1' => '+2547 13 370 599',
     'ContactPhone2' => '+254 700 000 001',
     'Address' => 'Mburu Plaza,Kwame Nkuruma Road. P.O BOX 7927-01000,Kiambu,Thika,Kenya',
     'Address2' => 'Mburu Plaza, Thika, Kenya',
@@ -55,8 +55,16 @@ $config = [
             background-color: #001ac3 !important;
             
         }
+        .text-secondary {
+            color: rgb(182, 82, 11) !important;
+            
+        }
         .bg-secondary{
             background-color: #001ac3 !important;
+        }
+        .text-blue{
+            color: #001ac3 !important;
+            font-weight: 600;
         }
     </style>
     {{-- end css Overwrite--}}
@@ -142,8 +150,8 @@ $config = [
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
                             <div class="dropdown-menu bg-light m-0">
                                 <a href="{{ route('about') }}" class="dropdown-item">Our History</a>
-                                 <a href="{{ route('about') }}" class="dropdown-item">Our Team</a>
-                                <a href="{{ route('beneficiaries') }}" class="dropdown-item">Our Beneficiries</a>
+                                {{--  <a href="{{ route('about') }}" class="dropdown-item">Our Team</a> --}}
+                                {{-- <a href="{{ route('beneficiaries') }}" class="dropdown-item">Our Beneficiries</a> --}}
                                  <a href="{{ route('transparency') }}" class="dropdown-item">Transparency & Management</a>
                                
                             </div>
@@ -156,7 +164,7 @@ $config = [
                                 <a href="{{ route('volunteer') }}" class="dropdown-item">Volunteer</a>
                                  <a href="{{ route('partner') }}" class="dropdown-item">Partner With Us</a>
                                 <a href="{{ route('donation') }}" class="dropdown-item">Donate</a>
-                                 <a href="{{ route('partners') }}" class="dropdown-item">Our Partners</a>
+                                 <a href="{{ route('partners') }}" class="dropdown-item">Collaborators</a>
                             </div>
                         </div>
                         {{-- end get involved --}}
@@ -165,11 +173,11 @@ $config = [
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
                             <div class="dropdown-menu bg-light m-0">
-                                <a href="event.html" class="dropdown-item">Stories</a>
+                               {{--  <a href="event.html" class="dropdown-item">Stories</a> --}}
                                 <a href="{{ route('events') }}" class="dropdown-item">Events</a>
                                
                                 <a href="{{ route('beneficiaries') }}" class="dropdown-item">Testimonials</a>
-                                <a href="404.html" class="dropdown-item">News/Blog</a>
+                               {{--  <a href="404.html" class="dropdown-item">News/Blog</a> --}}
                                 <a href="{{ route('privacy') }}" class="dropdown-item">Privacy Policy.</a>
                             </div>
                         </div>
@@ -177,7 +185,7 @@ $config = [
 
                        
                         <a href="{{ route('faqs') }}" class="nav-item nav-link">FAQs</a>
-                        <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
+                        <a href="{{ route('contact') }}" class="nav-item nav-link">News</a>
                     </div>
                     <div class="d-none d-lg-flex ms-auto">
                         <a class="btn btn-square btn-dark ms-2" href=""><i class="fab fa-twitter"></i></a>
@@ -214,11 +222,15 @@ $config = [
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
                     <a class="btn btn-link" href="">Our Programs</a>
-                    <a class="btn btn-link" href="">Stories and Events</a>
-                    <a class="btn btn-link" href="">Testmonials</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Collaborators</a>
+                    <a class="btn btn-link" href="">Media Center</a>
+                    <a class="btn btn-link" href="">FAQs</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Recommedations</a>
+                    <a class="btn btn-link" href="">Publications</a>
+                    
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Working Hours</h4>
@@ -255,15 +267,15 @@ $config = [
             </div>
             <div class="copyright pt-5">
                 <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <div class="col-md-6 text-center text-md-center mb-3 mb-md-0">
                         &copy; <a class="fw-semi-bold"
-                            href="#">{{ config('app.name' ?? 'Rehema Rescue CBO') }}</a>,
+                            href="#">{{ config('app.name' ?? 'Rehema Rescue CBO') }}{{date('Y')}}</a>,
                         All
                         Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
 
-                        Dev <a class="fw-semi-bold" href="">Murimicodes</a>
+                      {{--   Dev <a class="fw-semi-bold" href="">Murimicodes</a> --}}
                     </div>
                 </div>
             </div>

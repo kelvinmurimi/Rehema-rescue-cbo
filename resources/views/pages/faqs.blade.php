@@ -26,8 +26,8 @@
                     <div class="accordion" id="accordionExample">
                         {{-- 1 --}}
                         <div class="accordion-item wow fadeInUp" data-wow-delay="0.1s">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            <h2 class="accordion-header text-primary" id="headingOne">
+                                <button class="accordion-button text-primary" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     What is Rehema Rescue CBO?
                                 </button>

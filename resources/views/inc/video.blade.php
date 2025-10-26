@@ -8,12 +8,12 @@
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
                         </button>
-                        <h3 class="ms-5 mb-0">Building Capacity for Growth, Impact and Sustainability.</h3>
+                        <h3 class="ms-5 mb-0 text-center" style="text-align: center !important;">TESTIMONIALS.</h3>
                     </div>
                 </div>
                 <div class="d-none d-lg-block col-lg-1">
                     <div class="h-100 w-100 bg-secondary d-flex align-items-center justify-content-center">
-                        <span class="text-white" style="transform: rotate(-90deg);">Scroll Down</span>
+                        <span class="text-white" style="transform: rotate(-90deg);"></span>
                     </div>
                 </div>
             </div>

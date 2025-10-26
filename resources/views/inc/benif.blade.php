@@ -4,8 +4,8 @@
             <div class="row g-5">
                 <div class="col-md-12 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
                     <div class="service-title">
-                        <h3 class="display-7 mb-4">Our Beneficiaries.</h3>
-                        <p class="fs-5 mb-0">We work to bring smiles, hope, and a brighter future to those in need.</p>
+                        <h2 class="display-3 mb-4">We Support:</h2>
+                        <p class="fs-5 mb-0"></p>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-8 col-xl-9">

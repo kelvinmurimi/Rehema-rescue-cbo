@@ -4,17 +4,17 @@
   <!-- Video Hero Section Start -->
   <div class="container-fluid p-0 video-hero-section wow fadeIn" data-wow-delay="0.1s">
       <video autoplay loop muted playsinline class="background-video">
-          <source src="{{ asset('videos/home.mp4') }}" type="video/mp4">
+          <source src="{{ asset('videos/home2.mp4') }}" type="video/mp4">
           Your browser does not support the video tag.
       </video>
       <div class="video-overlay">
           <div class="container text-center text-white py-5">
-              <h4 class="display-7 text-uppercase mb-3 wow fadeIn text-primary" data-wow-delay="0.3s">Our Vision</h4>
-              <p class="fs-4 mb-4 wow fadeIn" data-wow-delay="0.5s">Inspire and Provide Lasting Solutions.</p>
-              <h4 class="display-7 text-uppercase mb-3 wow fadeIn text-primary" data-wow-delay="0.7s">Our Mission</h4>
-              <p class="fs-4 mb-4 wow fadeIn" data-wow-delay="0.9s">Intervening for Transformative Behavior Change.</p>
-              <h4 class="display-7 text-uppercase mb-3 wow fadeIn text-primary" data-wow-delay="1.1s">Our Core Values</h4>
-              <p class="fs-4 mb-5 wow fadeIn" data-wow-delay="1.3s">Respect, Empowerment, Hope, Equity, Mentorship and Advocacy for the vulnerable in communities, which primarily translates to “REHEMA RESCUE”.</p>
+              <h3 class="display-7 text-uppercase mb-3 wow fadeIn text-primary" data-wow-delay="0.3s">Our Vision</h3>
+              <p class="fs-5 mb-4 wow fadeIn" data-wow-delay="0.5s">Inspire and Provide Lasting Solutions.</p>
+              <h3 class="display-7 text-uppercase mb-3 wow fadeIn text-primary" data-wow-delay="0.7s">Our Mission</h3>
+              <p class="fs-5 mb-4 wow fadeIn" data-wow-delay="0.9s">Intervening for Transformative Behavior Change.</p>
+              <h3 class="display-7 text-uppercase mb-3 wow fadeIn text-primary" data-wow-delay="1.1s">Our Core Values</h3>
+              <p class="fs-5 mb-5 wow fadeIn" data-wow-delay="1.3s"> <b class="text-secondary">R</b>espect, <b class="text-secondary">E</b>mpowerment, <b class="text-secondary">H</b>ope, <b class="text-secondary">E</b>quity, <b class="text-secondary">M</b>entorship and <b class="text-secondary">A</b>dvocacy for the vulnerable in communities, translating  to <b class="text-secondary">“REHEMA”</b>.</p>
               <div class="d-flex justify-content-center wow fadeIn" data-wow-delay="1.5s">
                   <a class="btn btn-primary py-3 px-4 me-3 flex-nowrap" href="{{ route('about') }}">About Us</a>
                   <a class="btn btn-secondary py-3 px-4 flex-nowrap text-white" style="color: #fff !important" href="{{ route('donation') }}">Donate Now</a>

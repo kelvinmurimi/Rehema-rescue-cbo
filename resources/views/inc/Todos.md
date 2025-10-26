@@ -8,3 +8,5 @@
 ## Privacy Policy Page.
 ## Terms & Conditions Page.
 ##
+
+--stories and events
