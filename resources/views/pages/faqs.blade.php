@@ -115,12 +115,13 @@
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     We implement programs in:
-                                     Child Protection & Advocacy.
-                                     Education and Scholarship Support
-                                     Health & Nutrition.
-                                     Mentorship and Technical Skills Development
-                                     Mental Health and Drug Recovery.
-                                     Legal and Community Advocacy
+                                    <ul>
+                                        <li>Education and Scholarship Support</li>
+                                        <li>Health & Nutrition</li>
+                                        <li>Mentorship and Technical Skills Development</li>
+                                        <li>Mental Health and Drug Recovery</li>
+                                        <li>Legal and Community Advocacy</li>
+                                    </ul>
                                     Each program is designed to empower individuals and promote sustainable community
                                     growth.
                                 </div>
@@ -131,19 +132,19 @@
                             <h2 class="accordion-header" id="headingSix">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    How can I get involved or support Rehema Rescue CBO's work?.
+                                   How can I volunteer or intern with you/ Rehema Rescue CBO?.
                                 </button>
                             </h2>
                             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     There are several ways to support our work:
-                                     Donations: Financial contributions, supplies, or services.
-                                     Volunteering: Offering your time and skills for various programs.
-                                     Partnerships: Collaborating with us on projects or events.
-                                     Advocacy: Raising awareness about our mission and programs.
-                                    Visit our website's "Get Involved
-                                    " section for more details on how to contribute.
+                                    <ul>
+                                        <li>Volunteering: Offering your time and skills for various programs.</li>
+                                        <li>Partnerships: Collaborating with us on projects or events.</li>
+                                        <li>Advocacy: Raising awareness about our mission and programs.</li>
+                                    </ul>
+                                    Visit our website's "Get Involved" section for more details on how to contribute.
                                 </div>
                             </div>
                         </div>
@@ -377,4 +378,28 @@
         </div>
 
         <!-- FAQs End -->
+        <style>
+            .accordion-item {
+                border: none;
+                margin-bottom: 1.5rem;
+                border-radius: .5rem;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+                overflow: hidden; /* Ensures border-radius is applied correctly */
+            }
+
+            .accordion-button {
+                font-weight: 600;
+            }
+
+            .accordion-button:not(.collapsed) {
+                color: var(--bs-primary);
+                background-color: #f8f9fa;
+                box-shadow: none;
+            }
+
+            .accordion-button:focus {
+                box-shadow: none;
+                border-color: transparent;
+            }
+        </style>
     @endsection
