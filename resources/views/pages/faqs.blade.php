@@ -64,7 +64,7 @@
                             </div>
                         </div>
                         {{-- 3 --}}
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
+                        {{-- <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -82,7 +82,7 @@
                                     hospitals, and community outreach.
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         {{-- 4 --}}
                         <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
                             <h2 class="accordion-header" id="headingFour">
