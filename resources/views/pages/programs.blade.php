@@ -10,7 +10,7 @@
                 <h6 class="display-7 mb-5">Our program’s delivery and effectiveness are qualitatively and quantitatively
                     assessed through
                     structured beneficiary surveys, focus-group discussions, Key Informant Interviews (KIIs) with
-                    stakeholders, review of school and institutional records.</h16>
+                    stakeholders, review of school and institutional records.</h6>
             </div>
 
             <!-- Program 1: Image Left, Text Right -->
