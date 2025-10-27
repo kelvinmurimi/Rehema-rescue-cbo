@@ -54,15 +54,28 @@
           -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
           background-size: cover;
-          filter: brightness(50%); /* Darken the video to make text more readable */
       }
 
       .video-overlay {
-          position: relative;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
           z-index: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
           text-align: center;
           padding: 20px;
-          max-width: 900px; /* Limit width for better readability */
+          background-color: rgba(80, 122, 240, 0.5); /* Semi-transparent orange overlay */
+      }
+
+      @media (max-width: 768px) {
+          .video-overlay {
+              padding: 15px;
+          }
       }
 
       .video-overlay h1, .video-overlay p {

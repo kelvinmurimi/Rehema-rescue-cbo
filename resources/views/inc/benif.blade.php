@@ -1,10 +1,14 @@
+ <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+    <h3 class="section-title bg-white text-center text-primary px-3">We Support.</h3>
+</div>
+ 
  {{-- Our beneficiaries --}}
     <div class="container-fluid py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-12 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
                     <div class="service-title">
-                        <h2 class="display-3 mb-4">We Support:</h2>
+                        <h3 class="display-6 mb-4">We Support:</h3>
                         <p class="fs-5 mb-0"></p>
                     </div>
                 </div>
