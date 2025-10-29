@@ -269,7 +269,7 @@ $config = [
                 <div class="row">
                     <div class="col-md-6 text-center text-md-center mb-3 mb-md-0">
                         &copy; <a class="fw-semi-bold"
-                            href="#">{{ config('app.name' ?? 'Rehema Rescue CBO') }}{{date('Y')}}</a>,
+                            href="#">{{ 'Rehema Rescue CBO' }}{{date('Y')}}</a>,
                         All
                         Right Reserved.
                     </div>

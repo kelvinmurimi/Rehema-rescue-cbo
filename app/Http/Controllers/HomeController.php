@@ -76,11 +76,17 @@ class HomeController extends Controller
         return view('pages.beneficiaries', compact('title'));
     }
     //transparency
-    public function transparency(){
+    public function transparency()
+    {
         $title = "Rehema Rescue CBO - Transparency & Management";
         return view('pages.transparency', compact('title'));
     }
 
-  
+    //events and stories
+    public function eventsAndStories()
+    {
+        $title = "Events and Stories";
+        return view('pages.events', compact('title'));
+    }
 
 }

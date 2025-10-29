@@ -12,7 +12,7 @@ Route::prefix('r')->group( function () {
      Route::get('/contact-rehema-rescue-cbo', [HomeController::class, 'contact'])->name('contact');
      //beneficiaries
      Route::get('beneficiaries-rehema-rescue-cbo', [HomeController::class, 'beneficiaries'])->name('beneficiaries');
-     Route::get('events-rehema-rescue-cbo  ', [HomeController::class, 'events'])->name('events');
+    // Route::get('events-rehema-rescue-cbo  ', [HomeController::class, 'events'])->name('events');
      Route::get('donation-rehema-rescue-cbo', [HomeController::class, 'donation'])->name('donation');
      Route::get('volunteer-rehema-rescue-cbo', [HomeController::class, 'volunteer'])->name('volunteer');
      //FAQs
@@ -27,5 +27,6 @@ Route::prefix('r')->group( function () {
      Route::get('partner-rehema-rescue-cbo', [HomeController::class, 'partner'])->name('partner');
      //transparency
      Route::get('transparency-rehema-rescue-cbo', [HomeController::class, 'transparency'])->name('transparency');
-     
+     //events and stories
+     Route::get('events-and-stories-rehema-rescue-cbo', [HomeController::class, 'eventsAndStories'])->name('events'); 
 }); 
