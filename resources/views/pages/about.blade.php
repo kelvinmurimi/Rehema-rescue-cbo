@@ -30,8 +30,5 @@
     <!-- About End -->
 
     {{-- Our beneficiaries --}}
-   @include('inc.benif')
-    {{-- Our beneficiaries End --}}
-    @include('inc.counter')
-    @include('inc.beneficiaries')
+  
 @endsection
