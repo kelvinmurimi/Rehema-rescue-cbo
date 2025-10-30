@@ -65,6 +65,20 @@
                         </div>
                     </div>
                 </div>
+                {{-- 5 jane --}}
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9">
+                            <video controls src="{{ asset('videos/jane.mp4') }}" title="Event 5"></video>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary">Jane Muthoni.</h5>
+                            <p class="card-text">
+                               Victim of Neglect
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
