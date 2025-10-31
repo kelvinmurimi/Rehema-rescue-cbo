@@ -17,7 +17,8 @@
                         <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.1s">
                             <div class="service-item h-100">
                                 <div class="btn-square bg-light mb-4">
-                                    <i class="fa fa-droplet fa-2x text-secondary"></i>
+                                   
+                                     <i class="fa fa-hands-holding-child fa-2x text-secondary"></i>
                                 </div>
                                 <h3>Orphans and Vulnerable Children:</h3>
                                 <p class="mb-2">Orphans, teen mothers and fathers, children of very poor
@@ -39,7 +40,7 @@
                         <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.5s">
                             <div class="service-item h-100">
                                 <div class="btn-square bg-light mb-4">
-                                    <i class="fa fa-hands-holding-child fa-2x text-secondary"></i>
+                                   <i class="fa-solid fa-syringe fa-2x text-secondary"></i>
                                 </div>
                                 <h3>Chronically Sick:</h3>
                                 <p class="mb-2">People living with HIV/ AIDS.</p>
@@ -49,7 +50,7 @@
                         <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.1s">
                             <div class="service-item h-100">
                                 <div class="btn-square bg-light mb-4">
-                                    <i class="fa fa-bowl-food fa-2x text-secondary"></i>
+                                  <i class="fa-solid fa-pills fa-2x text-secondary"></i>
                                 </div>
                                 <h3>Drugs and Substance Abuse Victims:</h3>
                                 <p class="mb-2">Drug and alcohol addicts.</p>
@@ -59,7 +60,7 @@
                         <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
                             <div class="service-item h-100">
                                 <div class="btn-square bg-light mb-4">
-                                    <i class="fa fa-school-flag fa-2x text-secondary"></i>
+                                    <i class="fa-solid fa-person-dress fa-2x text-secondary"></i>
                                 </div>
                                 <h3>Victims of SGBV:</h3>
                                 <p class="mb-2">Children and youths who are faced with sexual and gender based violence;

@@ -18,9 +18,8 @@
                           <p class="fs-5 mb-5">Our principles are pillared on Respect, Empowerment, Hope, Equity,
                               Mentorship and Advocacy
                               for the vulnerable in communities, which primarily translates to “REHEMA RESCUE”.</p>
-                          <div class="d-flex">
-                              <a class="btn btn-primary py-3 px-4 me-3" href="">About Us</a>
-
+                          <div class="d-flex" id="about">
+                              <a class="btn btn-primary py-3 px-4 me-3" href="#about-us">About Us</a>
                           </div>
                       </div>
                   </div>
@@ -46,7 +45,7 @@
                               socially-vulnerable.
                               Family Care: Enhancing family stability through strengthening the family institution ...
                           <div class="d-flex mt-4">
-                              <a class="btn btn-primary py-3 px-4 me-3" href="">Learn More</a>
+                              <a class="btn btn-primary py-3 px-4 me-3" href="#what-we-do">Learn More</a>
 
                           </div>
                       </div>

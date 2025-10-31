@@ -1,5 +1,5 @@
 <!-- About Start -->
-<div class="container-fluid py-5">
+<div class="container-fluid py-5" id="about-us">
     <div class="container">
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">

@@ -1,5 +1,5 @@
 <!-- Features Start -->
-<div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+<div class="text-center mx-auto wow fadeInUp" id="what-we-do" data-wow-delay="0.1s" style="max-width: 500px;">
     <h3 class="section-title bg-white text-center text-primary px-3">Our Impact</h3>
 </div>
 <div class="container-fluid py-5">
@@ -8,9 +8,9 @@
             <div class="col-lg-6">
                
 
-                <div class="rounded overflow-hidden">
+                <div class="rounded overflow-hidden ">
                     <div class="row g-0">
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="col-sm-6 wow fadeIn rounded" data-wow-delay="0.1s">
                             <div class="text-center bg-primary py-5 px-4 h-100">
                                 <i class="fa fa-users fa-3x text-secondary mb-3"></i>
                                 <h1 class="display-5 mb-0" data-toggle="counter-up">420</h1>
@@ -24,7 +24,7 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                        <div class="col-sm-6 wow fadeIn rounded" data-wow-delay="0.3s">
                             <div class="text-center bg-secondary py-5 px-4 h-100">
                                 <i class="fa fa-award fa-3x text-primary mb-3"></i>
                                 <h1 class="display-5 text-white mb-0" data-toggle="counter-up">85</h1>
@@ -36,7 +36,7 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="col-sm-6 wow fadeIn rounded" data-wow-delay="0.5s">
                             <div class="text-center bg-secondary py-5 px-4 h-100">
                                 <i class="fa fa-list-check fa-3x text-primary mb-3"></i>
                                 <h1 class="display-5 text-white mb-0" data-toggle="counter-up">71</h1>
@@ -46,7 +46,7 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="col-sm-6 wow fadeIn rounded" data-wow-delay="0.7s">
                             <div class="text-center bg-primary py-5 px-4 h-100">
                                 <i class="fa fa-comments fa-3x text-secondary mb-3"></i>
                                 <h1 class="display-5 mb-0" data-toggle="counter-up">440</h1>
@@ -108,6 +108,10 @@
         /* Ensure text is centered */
         padding: 2rem;
         /* Padding for the content inside the overlay */
+    }
+    .rounded {
+        border-radius: .5rem !important;
+        overflow: hidden;
     }
 </style>
 <!-- Features End -->
